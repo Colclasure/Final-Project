@@ -1,0 +1,42 @@
+.topnav {
+  background-color: green;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(40,200,50);
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(40,200,50);
+  color: white;
+/* This provides a line to make it look cooler*/
+}
+hr{
+  display: block;
+  margin-left: auto;
+  Margin-right:auto;
+  width: 250px;
+
+}
+footer {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align: center;
+	font-size: 1em;
+	border-top: 2px solid green;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
